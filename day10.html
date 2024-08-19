@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body
+    style="display: flex; flex-direction: column; background-color: aliceblue"
+  >
+    <div>
+      <h1>Day 10</h1>
+      <p id="p1">This is a paragraph</p>
+      <button id="btn">Click me</button>
+    </div>
+    <div
+      id="imgdiv"
+      style="border: 2px solid blue; width: fit-content; margin: 10px"
+    >
+      <img id="img" src="https://picsum.photos/200" alt="picsum" />
+    </div>
+    <div
+      id="hoverdiv"
+      style="
+        padding: 20px;
+        border: 4px solid black;
+        width: fit-content;
+        margin: 10px;
+      "
+    >
+      <h3 id="hover">Hover over me</h3>
+    </div>
+    <div style="border: 1px solid black; width: fit-content; margin: 10px">
+      <input id="input" type="text" />
+      <p id="p2">This is where the released key will be shown.</p>
+    </div>
+    <div>
+      <form
+        action=""
+        style="
+          display: inline-block;
+          padding: 1em;
+          border: 1px solid #ccc;
+          border-radius: 1em;
+        "
+        id="form"
+      >
+        <ul style="list-style: none; padding: 0; margin: 0">
+          <li style="margin-top: 1em">
+            <label for="name">Name: </label>
+            <input type="text" id="name" />
+          </li>
+          <li style="margin-top: 1em">
+            <label for="age">Age: </label>
+            <input type="number" id="age" />
+          </li>
+          <li style="margin-top: 1em">
+            <button type="submit">Submit</button>
+          </li>
+        </ul>
+      </form>
+    </div>
+    <div
+      style="
+        display: inline-block;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+      "
+    >
+      <select name="select" id="dropdown">
+        <option value="default">Select an option</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="fish">Fish</option>
+      </select>
+      <p id="p3">Selected option:</p>
+    </div>
+    <div
+      style="
+        display: inline-block;
+        padding: 1em;
+        border: 1px solid #ccc;
+        border-radius: 1em;
+      "
+    >
+      <ul id="list">
+        <li>1. Item 1</li>
+        <li>2. Item 2</li>
+        <li>3. Item 3</li>
+      </ul>
+      <button id="btn2">Add Item</button>
+    </div>
+    <script src="day10.js"></script>
+  </body>
+</html>
